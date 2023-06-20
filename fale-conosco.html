@@ -63,12 +63,12 @@
                 <br/>
                 <input type="radio" name="tSex" id="cFem" value="F"/><label for="cFem">Feminino</label>    
         </fieldset>
-        <p><label for="cData">Data de Nascimento: </label><input type="date" name="tData" id="cData" min="1900-01-01" maxlength="2022-12-31" required/></p>
+        <p><label for="cData">Data de Nascimento: </label><input type="date" name="tData" id="cData" min="1900-01-01" max="2022-12-31" required/></p>
     </fieldset>
 
     <fieldset id="endereco">
         <legend>Endereço do Usuário</legend>
-        <p><label for="cRua">Logradouro:</label><input type="text" name="tRua" id="cRua" size="35" maxlength="120" placeholder="Rua, Av., Trav., Estr., etc" list="logradouros" required/></p>
+        <p><label for="cRua">Logradouro: </label><input type="text" name="tRua" id="cRua" size="35" maxlength="120" placeholder="Rua, Av., Trav., Estr., etc." list="logradouros" required/></p>
         <datalist id="logradouros">
             <option>Rua&nbsp;</option>
             <option>Avenida&nbsp;</option>
@@ -77,9 +77,9 @@
             <option>Alameda&nbsp;</option>
             <option>Praça&nbsp;</option>
         </datalist>
-        <p><label for="cNum">Número:</label><input type="number" name="tNum" id="cNum" min="0" max="99999" step="1" value="0" required/></p>
+        <p><label for="cNum">Número: </label><input type="number" name="tNum" id="cNum" min="0" max="99999" step="1" value="0" required/></p>
         <p>    
-            <label for="cEst">Estado:</label>
+            <label for="cEst">Estado: </label>
             <select name="tEst" id="cEst">
                 <optgroup label="Região Norte">
                     <option value="AC">Acre</option>
@@ -104,7 +104,7 @@
                 <optgroup label="Região Centro-Oeste">
                     <option value="DF">Distrito Federal</option>
                     <option value="GO">Goiás</option>
-                    <option value="MT">Mato Grosso</option>[
+                    <option value="MT">Mato Grosso</option>
                     <option value="MS">Mato Grosso do Sul</option>
                 </optgroup>
                 <optgroup label="Região Sudeste">
@@ -120,21 +120,21 @@
                 </optgroup>
             </select>
         </p>
-        <p><label for="cCid">Cidade:</label><input type="text" name="tCid" id="cCid" size="25" maxlength="90" placeholder="Digite seu Município" required/></p>
+        <p><label for="cCid">Cidade: </label><input type="text" name="tCid" id="cCid" size="25" maxlength="90" placeholder="Digite seu Município" required/></p>
     </fieldset>
 
     <fieldset id="mensagem">    
         <legend>Mensagem do Usuário</legend>
             <p><label for="cUrg">Grau de Urgência: </label>Min<input type="range" name="tUrg" id="cUrg" min="1" max="5" step="1" value="1"/>Máx</p>
-            <p><label for="cMsg">Mensagem:</label></p>
+            <p><label for="cMsg">Mensagem: </label></p>
             <p><textarea name="tMsg" id="cMsg" cols="40" rows="5" maxlength="1000" placeholder="Digite sua Mensagem Aqui" required></textarea></p>
     </fieldset>
 
     <fieldset id="pedido">   
         <legend>Quero um Google Glass</legend>
             <p><input type="checkbox" name="tPed" id="cPed" value="Adquirir" checked/><label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
-            <p><label for="cCor">Cor:</label><input type="color" name="tCor" id="cCor" value="#000000"/></p>
-            <p><label for="cQtd">Quantidade:</label><input type="number" name="tQtd" id="cQtd" min="0" max="5" step="1" value="0" required/></p>
+            <p><label for="cCor">Cor: </label><input type="color" name="tCor" id="cCor" value="#000000"/></p>
+            <p><label for="cQtd">Quantidade: </label><input type="number" name="tQtd" id="cQtd" min="0" max="5" step="1" value="0" required/></p>
             <p><label for="cTot">Preço Total: R$</label><input type="text" name="tTot" id="cTot" size="15" placeholder="Total a Pagar" value="0.00" readonly/></p>
     </fieldset>
 
