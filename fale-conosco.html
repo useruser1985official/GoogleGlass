@@ -29,6 +29,7 @@
                     </ul>
                 </nav>
             </header>
+
 <section id="corpo-full">
 <article id="noticia-principal">
 
@@ -38,7 +39,7 @@
         <h1>Formulário de Contato</h1>
         <h2>por Gustavo Guanabara</h2>
         <h3 class="direita">Atualizado em 01/Maio/2013</h3>
-    </hgroup>
+    </hgroup> 
 </header>
 
 </article>
@@ -61,12 +62,12 @@
             <legend>Sexo</legend>
                 <input type="radio" name="tSex" id="cMasc" value="M" checked/><label for="cMasc">Masculino</label>
                 <br/>
-                <input type="radio" name="tSex" id="cFem" value="F"/><label for="cFem">Feminino</label>    
+                <input type="radio" name="tSex" id="cFem" value="F"/><label for="cFem">Feminino</label>  
         </fieldset>
-        <p><label for="cData">Data de Nascimento: </label><input type="date" name="tData" id="cData" min="1900-01-01" max="2022-12-31" required/></p>
+        <p><label for="cData">Data de Nascimento: </label><input type="date" name="tData" id="cData" min="1900-01-01" max="2023-12-31" required/></p>
     </fieldset>
-
-    <fieldset id="endereco">
+    
+    <fieldset id="endereco"> 
         <legend>Endereço do Usuário</legend>
         <p><label for="cRua">Logradouro: </label><input type="text" name="tRua" id="cRua" size="35" maxlength="120" placeholder="Rua, Av., Trav., Estr., etc." list="logradouros" required/></p>
         <datalist id="logradouros">
@@ -78,7 +79,7 @@
             <option>Praça&nbsp;</option>
         </datalist>
         <p><label for="cNum">Número: </label><input type="number" name="tNum" id="cNum" min="0" max="99999" step="1" value="0" required/></p>
-        <p>    
+        <p>
             <label for="cEst">Estado: </label>
             <select name="tEst" id="cEst">
                 <optgroup label="Região Norte">
@@ -123,28 +124,27 @@
         <p><label for="cCid">Cidade: </label><input type="text" name="tCid" id="cCid" size="25" maxlength="90" placeholder="Digite seu Município" required/></p>
     </fieldset>
 
-    <fieldset id="mensagem">    
+    <fieldset id="mensagem">
         <legend>Mensagem do Usuário</legend>
-            <p><label for="cUrg">Grau de Urgência: </label>Min<input type="range" name="tUrg" id="cUrg" min="1" max="5" step="1" value="1"/>Máx</p>
-            <p><label for="cMsg">Mensagem: </label></p>
-            <p><textarea name="tMsg" id="cMsg" cols="40" rows="5" maxlength="1000" placeholder="Digite sua Mensagem Aqui" required></textarea></p>
+        <p><label for="cUrg">Grau de Urgência: </label>Min<input type="range" name="tUrg" id="cUrg" min="1" max="5" step="1" value="1"/>Máx</p>
+        <p><label for="cMsg">Mensagem:</label></p>
+        <p><textarea name="tMsg" id="cMsg" cols="40" rows="5" maxlength="1000" placeholder="Digite sua Mensagem Aqui" required></textarea></p>
     </fieldset>
 
-    <fieldset id="pedido">   
+    <fieldset id="pedido">
         <legend>Quero um Google Glass</legend>
-            <p><input type="checkbox" name="tPed" id="cPed" value="Adquirir" checked/><label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
-            <p><label for="cCor">Cor: </label><input type="color" name="tCor" id="cCor" value="#000000"/></p>
-            <p><label for="cQtd">Quantidade: </label><input type="number" name="tQtd" id="cQtd" min="0" max="5" step="1" value="0" required/></p>
-            <p><label for="cTot">Preço Total: R$</label><input type="text" name="tTot" id="cTot" size="15" placeholder="Total a Pagar" value="0.00" readonly/></p>
+        <p><input type="checkbox" name="tPed" id="cPed" value="Adquirir" checked/><label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
+        <p><label for="cCor">Cor: </label><input type="color" name="tCor" id="cCor" value="#000000"/></p>
+        <p><label for="cQtd">Quantidade: </label><input type="number" name="tQtd" id="cQtd" min="0" max="5" step="1" value="0" required/></p>
+        <p><label for="cTot">Preço Total: R$</label><input type="text" name="tTot" id="cTot" size="15" placeholder="Total a Pagar" value="0.00" readonly/></p>
     </fieldset>
 
     <input type="image" alt="Enviar" src="_imagens/botao-enviar.png"/>
     <!--<input type="submit" value="Enviar"/>-->
 </form>
 
-
 <footer id="rodape">
-    <p>  
+    <p> 
         Copyright &copy; 2013 - by Gustavo Guanabara<br/>
         <a href="https://facebook.com/cursosemvideo" target="_blank">Facebook</a>
         |

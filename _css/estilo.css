@@ -91,7 +91,7 @@ nav#menu ul li:hover {
 
 nav#menu ul li a {
     color: black;
-    text-decoration: nome;
+    text-decoration: none;
     transition: color, text-decoration 1s;
 }
 
