@@ -4,7 +4,7 @@ div#tv-radio {
     width: 900px;
     height: 580px;
     margin: auto;
-    background: url("../_imagens/radio-tv.png") center no-repeat;
+    background: url("../imagens/radio-tv.png") center no-repeat;
 }
 
 video#filme {
